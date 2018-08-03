@@ -1,0 +1,134 @@
+
+html{ background-color: #fbf7e7 ;}
+body{
+    font:18px/24px 'NewsGothicNo.2W01-Roman' ;
+    color: #1f1b0c ;
+    letter-spacing: .06em ;
+    margin: 0 ;
+}
+
+h1{
+    font-family: 'Cooper Black W01';
+    font-weight: normal ;
+}
+
+h1{
+    margin: 0 ;
+    color: #fbf7e7;
+    font-size: 3em ;
+    line-height: 1em ;
+    letter-spacing: -.1em ;
+
+}
+
+.targin{
+    font-family: 'NewsGothicNo.2W01-Light 710401' ;
+    font-size: 1.1em ;
+    line-height: 1em ;
+    color: #fbf7e7 ;
+    letter-spacing: .12em  ;
+
+}
+a{
+    font-family:'NewsGothicNo.2W01-Mediu 710407' ;
+    color: #e06f00 ;
+    text-decoration: none ; 
+}
+
+a:active,a:hover,a:focus{
+    text-decoration: underline ;
+    outline: none ;
+}
+
+footer li{
+    font-family: 'NewsGothicNo.2W01-Light 710401'  ;
+    font-size: .75em ;
+    line-height: 1em ;
+    letter-spacing: .04em ;
+    color: #fbf7e7 ;
+
+}
+footer li em{
+    font-family: 'NewsGothicNo.2W01-Light 710401' ;
+    font-style: normal ;
+}
+
+header,footer{
+    -webkit-box-shadow:0 0 10px rgba(31,27,12,.3) ;
+    box-shadow:0 0 10px rgba(31,27,12,.3) ;
+}
+header,footer{
+    overflow: hidden;
+    background-color: #1f1b0c ;
+    margin: 0 ;
+    padding: 1em ;
+    text-align: center ;
+}
+
+header{
+    margin-bottom: 3em ;
+    padding: 3em 0 2em ;
+
+}
+
+header h1 ,header p{
+    width: 960px ;
+    margin: 0 auto ;
+    padding: 0 ;
+}
+header h1{
+    margin-bottom: .25em ;
+}
+
+footer{margin-top: 6em ;}
+
+footer ul{
+    overflow: hidden;
+    width: 960px ;
+    margin: 0 auto ;
+    padding: 0 ;
+}
+
+footer li {
+    float: right ;
+    margin-left: 1em ;
+    list-style: none;
+}
+
+footer li.copyright{ float: left;margin-left: 0;}
+
+input {
+    border-radius: 15px,15px,15px,15px ;
+    
+}
+
+input:active,input:hover,input:focus{
+    border-color: #e06f00 ;
+    background-color: #114fa0 ;
+    outline: none ;
+}
+input::-moz-focus-inner{border: 0 ;}
+
+@media screen and (max-width:960px) 
+{
+    header h1,header p{width: 760px ;}
+    header {padding: .75em 0 1.2em;}
+    footer {margin-top: 4em ;padding: 0 ;}
+    footer ul {width: 740px ;} 
+    
+    footer li,footer li.copyright{ float:none;margin:.75em,0 ;}  
+}
+
+@media screen and (max-width:760px) 
+{
+    header h1,header p{
+        width: 90% ;
+        min-width: 300px ;
+    }
+    header {padding-bottom: .75em ;}
+    header h1 {font-size: 2.4em} ;
+    footer {margin-top: 3em ;}
+    footer ul{width:300px ;} 
+}
+
+
